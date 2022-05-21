@@ -15,8 +15,8 @@ const themeMode = {
   },
   light: {
     text: {
-      primary: `#FED530`,
       secondary: `#000`,
+      primary: `#FED530`,
       main: `#E6E6E6`,
     },
     body: {

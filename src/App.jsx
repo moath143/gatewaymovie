@@ -15,7 +15,6 @@ const App = () => {
   const themeToggle = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light')
   }
-  console.log(theme);
   return (
     <ThemeProvider theme={theme === "light" ? themeMode.light : themeMode.dark}>
       <Navbar themeToggle={themeToggle} />

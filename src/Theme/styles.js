@@ -1,21 +1,18 @@
 import styled from "styled-components";
 
-
 export const flex = (flex, justify, aligns, direction, wrap) => {
-    return `
+  return `
         display: ${flex};
         justify-content: ${justify};
         align-items: ${aligns};
         flex-direction: ${direction};
         flex-wrap: ${wrap};
-    `
-}
+    `;
+};
 
 export const pixelToRem = (pixel) => {
-    return `${pixel / 16}rem`
-}
-
-
+  return `${pixel / 16}rem`;
+};
 
 export const Container = styled.div`
   width: 85%;
@@ -29,7 +26,3 @@ export const Typography = styled.p`
   line-height: ${(props) => pixelToRem(props.height)};
   text-transform: ${(props) => props.transform};
 `;
-
-
-
-

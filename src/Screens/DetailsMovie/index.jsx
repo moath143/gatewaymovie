@@ -6,13 +6,6 @@ import CRUDRequest from "../../API";
 import ReactPlayer from "react-player";
 import { VideosComp } from "./styleMovie";
 
-const opts = {
-  height: "390",
-  width: "640",
-  playerVars: {
-    autoplay: 1,
-  },
-};
 
 const DetailsMovie = (props) => {
   const [movie, setMovie] = useState({});
