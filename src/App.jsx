@@ -11,7 +11,7 @@ import DetailsMovie from './Screens/DetailsMovie/index';
 import TVShow from "./Screens/TVShow";
 import DetailsTV from "./Screens/DetailsTV";
 const App = () => {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
   const themeToggle = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light')
   }
